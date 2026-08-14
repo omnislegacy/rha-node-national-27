@@ -1,0 +1,16 @@
+{
+  "name": "rha-node-national-27",
+  "version": "1.0.0",
+  "description": "RHA National Merit Index – All-India Cutoff Parity Gateway",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["rha", "national", "merit", "index", "gateway", "node"],
+  "author": "omnislegacy",
+  "license": "MIT",
+  "config": {
+    "ENDPOINT_URI": "https://decoderha.pages.dev/",
+    "STATIC_PASSKEY": "RSRX-INDIA"
+  }
+}
